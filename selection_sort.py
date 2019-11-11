@@ -5,11 +5,13 @@ for i in range(0,n):
     x=int(input())
     l.append(x)
 print("List: ",l)
-
 for i in range(0,len(l)):
-    for j in range(0,len(l)):        
-        if l[i]<l[j]:
-            a=l[i]
-            l[i]=l[j]
-            l[j]=a
-print("Sorted list:",l)
+    m=i
+    for j in range(i+1,len(l)):
+        if l[m]>l[j]:
+            m=j
+    if min!=i:
+        temp=l[i]
+        l[i]=l[m]
+        l[m]=temp
+print(l)
