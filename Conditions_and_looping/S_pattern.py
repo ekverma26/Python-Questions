@@ -1,3 +1,31 @@
+Q To print the following patterns.
+ Expected Output:
+
+  ****                                                                  
+ *                                                                      
+ *                                                                      
+  ***                                                                   
+     *                                                                  
+     *                                                                  
+ **** 
+ 
+ ooooooooooooooooo                                                       
+ooooooooooooooooo                                                       
+ooooooooooooooooo                                                       
+oooo                                                                    
+oooo                                                                    
+oooo                                                                    
+ooooooooooooooooo                                                       
+ooooooooooooooooo                                                       
+ooooooooooooooooo                                                       
+             oooo                                                       
+             oooo                                                       
+             oooo                                                       
+ooooooooooooooooo                                                       
+ooooooooooooooooo                                                       
+ooooooooooooooooo 
+
+
 r_str=""
 for row in range(7):
     for col in range(5):
